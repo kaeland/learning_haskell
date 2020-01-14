@@ -8,4 +8,8 @@ doubleUs x y =  doubleMe x + doubleMe y
 
 doubleSmallNumber x = if x > 100 
                         then x 
-                        else doubleMe x
+                        else doubleMe x  
+
+enumeratedList = [2,4..10]
+
+enumeratedListReversed = [10,8..2]
